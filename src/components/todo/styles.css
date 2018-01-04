@@ -1,0 +1,29 @@
+input {
+  font-size: 20px
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item a {
+  text-decoration: none;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+.Footer a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
